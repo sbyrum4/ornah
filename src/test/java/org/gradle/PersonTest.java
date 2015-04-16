@@ -7,6 +7,6 @@ public class PersonTest {
     @Test
     public void canConstructAPersonWithAName() {
         Person person = new Person("Not Larry");
-        assertEquals("Not Larry", person.getName());
+        assertEquals("Larry", person.getName());
     }
 }
